@@ -33,8 +33,8 @@ chroma:
 lastgenre:
    source: artist 
    count: 1
-   canonical: ~/.local/share/mopidy/bigbeet/genres-tree.yaml 
-   whitelist: ~/.local/share/mopidy/bigbeet/genres.txt
+   canonical: /data/music/music_var/beet-config/genres-tree.yaml 
+   whitelist: /data/music/music_var/beet-config/genres.txt
 
 per_disc_numbering: yes
 asciify_paths: yes
