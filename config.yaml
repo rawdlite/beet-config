@@ -1,4 +1,4 @@
-directory: /data/music/music_data
+directory: /data/music/music_data/beets
 library: /data/music/music_var/beetslibrary.blb
 ignore: .AppleDouble ._* *~ .DS_Store
 art_filename: cover
@@ -11,12 +11,9 @@ clutter: [ "Thumbs.DB", ".DS_Store", "cover.jpg", "cover.png" ]
 format_item: '$genre :$grouping  $artist - $album - $title $path'
 format_album: '$genre :$albumtype  $albumartist - $album $path'
 pluginpath:
-   - /home/tom/projects/audio/beetsplug
-   - /home/tom/projects/audio/mopidy-bigbeet/beetsplug
    - /mopidy-bigbeet/beetsplug
 plugins:
     web
-    lyrics
     duplicates
     chroma
     copyartifacts
@@ -31,6 +28,7 @@ chroma:
     auto: yes
 
 lastgenre:
+   auto: no
    source: artist 
    count: 1
    canonical: /data/music/music_var/beet-config/genres-tree.yaml 
@@ -39,6 +37,7 @@ lastgenre:
 per_disc_numbering: yes
 asciify_paths: yes
 replace:
+    ', ': '-'
     '[\\/ ,]': _
     '^\.': _
     '[\x00-\x1f]': ''
@@ -57,8 +56,8 @@ match:
     max_rec:
         missing_tracks: low
 paths:
-    default: %asciify{%upper{%left{%if{$albumartist,$albumartist,$artist},1}}}/%asciify{$albumartist}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    singleton: 00_Singletons/%if{$artist,%asciify{%upper{%left{$artist,1}}},unknown}/%asciify{${artist}_-_$title}
+    default: %asciify{%upper{%left{%if{$albumartist_sort,$albumartist_sort,$albumartist},1}}}/%asciify{%if{$albumartist_sort,$albumartist_sort,$albumartist}}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    singleton: 00_Singletons/%if{$artist,%asciify{%upper{%left{$artist_sort,1}}},unknown}/%asciify{${artist}_-_$title}
     genre:"Radio Play": 00_HOERSPIELE/%if{${grouping},${grouping},no_group}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{%if{${artist},${artist}_-_}%if{${album},${album}_-_}$title}%if{$track,-Teil_$track}
     album:Fabric: 00_COMPILATIONS/Fabric/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     grouping:Total: 00_COMPILATIONS/Total/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
@@ -77,3 +76,8 @@ rewrite:
     artist Belle and Sebastian feat. The Maisonettes: Belle and Sebastian
     artist “Brother” Jack McDuff: Jack McDuff
     albumartist Aphex Twin (aka Universal Indicator): Aphex Twin
+    albumartist Universal Indicator: Aphex Twin
+    albumartist Aphex Twin (aka Polygon Window): Aphex Twin
+    albumartist Aphex Twin (aka Bradley Strider): Aphex Twin
+    albumartist Aphex Twin (aka AFX): Aphex Twin
+    albumartist The Bonzo Dog Band: The Bonzo Dog Doo-Dah Band

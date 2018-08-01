@@ -186,6 +186,7 @@ indie pop
 indie rock
 industrial music
 italo disco
+italo pop
 j-pop
 j-rock
 japanese pop
@@ -307,7 +308,7 @@ ska
 smooth jazz
 spoken word
 soft rock
-son
+son cubano
 sonata
 soul
 soul jazz
