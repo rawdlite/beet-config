@@ -1,11 +1,27 @@
 - ambient:
   - ambient dub
+<<<<<<< HEAD
+=======
+  - chillout
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
   - dark ambient:
     - black ambient
     - dark jazz
     - ritual ambient
   - space ambient
   - tribal ambient
+<<<<<<< HEAD
+=======
+- a cappella:
+  - barbershop
+  - canto cardenche
+  - madrigal
+  - mbube
+  - sacred harp music
+  - sean-nós
+- avant-garde:
+    - no wave
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
 - blues:
   - acoustic blues:
     - acoustic chicago blues
@@ -31,8 +47,12 @@
   - brazilian classical music
   - classical
   - classic
+<<<<<<< HEAD
   - contemporary classical:
     - new music
+=======
+  - contemporary classical
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
   - klassik
   - east asian classical music:
     - chinese classical music:
@@ -64,6 +84,15 @@
     - serialism
     - spectralism
     - stochastic music
+<<<<<<< HEAD
+=======
+  - opera:
+    - opera seria
+    - opera buffa
+    - operetta:
+      - zarzuela
+    - tragédie en musique
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
   - persian classical music
   - pibroch
   - shashmaqam
@@ -111,12 +140,15 @@
       - plainsong:
         - gregorian chant
     - neoclassicism
+<<<<<<< HEAD
     - opera:
       - opera seria
       - opera buffa
       - operetta:
         - zarzuela
       - tragédie en musique
+=======
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
     - oratorio
     - orchestral:
       - concerto
@@ -155,6 +187,41 @@
     - cowboy
     - old-time
   - western swing
+<<<<<<< HEAD
+=======
+- children's music:
+  - fairy tales
+  - lullabies
+  - nursery rhymes
+- church music:
+  - armenian church music
+  - coptic music
+  - gaelic psalm
+  - plainsong:
+    - gregorian chant
+  - pra god
+    - yé-yé
+  - carols
+  - christmas music:
+    - colinde
+  - halloween music
+  - hymns:
+    - sacred harp music
+- comedy:
+  - dutch cabaret
+  - kabarett
+  - stand up
+  - musical comedy:
+    - comedy rap
+    - comedy rock
+    - musical parody
+  - novelty:
+    - scrumpy and western
+  - prank calls
+  - satire
+  - sketch comedy
+  - stand-up comedy
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
 - dance:
   - alternative dance:
     - grebo
@@ -341,32 +408,10 @@
 - darkwave:
   - ethereal wave
   - neoclassical darkwave
-- a cappella:
-  - barbershop
-  - canto cardenche
-  - madrigal
-  - mbube
-  - sacred harp music
-  - sean-nós
-  - doo-wop
-- children's music:
-  - fairy tales
-  - lullabies
-  - nursery rhymes
-- church music:
-  - armenian church music
-  - coptic music
-  - gaelic psalm
-  - plainsong:
-    - gregorian chant
-  - pra god
-    - yé-yé
-  - carols
-  - christmas music:
-    - colinde
-  - halloween music
-  - hymns:
-    - sacred harp music
+- early music:
+  - medieval
+  - renaissance:
+    - renaissance music
 - electronic:
   - ambient dub
   - bit music:
@@ -1172,38 +1217,38 @@
     - romanţe
     - standards
   - turkish pop
-- r&b:
-  - rhythm and blues
-  - boogie
-  - contemporary r&b:
-    - alternative r&b
-    - new jack swing
-  - doo-wop
-  - funk:
-    - afro-funk
-    - afrobeat
-    - deep funk
-    - go-go
-    - jazz-funk
-    - latin funk
-    - p-funk
-    - porn groove
-    - synth funk
-  - new orleans r&b
-  - rhythm & blues
-  - soul:
-    - chicago soul
-    - country soul
-    - latin soul
-    - motown
-    - neo-soul
-    - northern soul
-    - philly soul
-    - pop soul
-    - psychedelic soul
-    - samba soul
-    - smooth soul
-    - southern soul:
+- soul:
+  - chicago soul
+  - country soul
+  - latin soul
+  - motown
+  - neo-soul
+  - northern soul
+  - philly soul
+  - pop soul
+  - psychedelic soul
+  - r&b:
+    - rhythm and blues
+    - boogie
+    - contemporary r&b:
+      - alternative r&b
+      - new jack swing
+    - doo-wop
+    - funk:
+      - afro-funk
+      - afrobeat
+      - deep funk
+      - go-go
+      - jazz-funk
+      - latin funk
+      - p-funk
+      - porn groove
+      - synth funk
+    - new orleans r&b
+    - rhythm & blues
+  - samba soul
+  - smooth soul
+  - southern soul:
       - deep soul
     - white soul:
       - blue-eyed soul
@@ -1390,6 +1435,529 @@
       - turbo-folk
     - entechna:
       - entechna laika
+=======
+- soul:
+  - chicago soul
+  - country soul
+  - latin soul
+  - motown
+  - neo-soul
+  - northern soul
+  - philly soul
+  - pop soul
+  - psychedelic soul
+  - r&b:
+    - rhythm and blues
+    - boogie
+    - contemporary r&b:
+      - alternative r&b
+      - new jack swing
+    - doo-wop
+    - funk:
+      - afro-funk
+      - afrobeat
+      - deep funk
+      - go-go
+      - jazz-funk
+      - latin funk
+      - p-funk
+      - porn groove
+      - synth funk
+    - new orleans r&b
+    - rhythm & blues
+  - samba soul
+  - smooth soul
+  - southern soul:
+      - deep soul
+  - white soul:
+      - blue-eyed soul
+- reggae:
+  - dancehall:
+    - digital dancehall
+    - ragga
+      - deejay
+    - dub:
+      - novo dub
+      - lovers rock
+    - pop reggae
+    - rocksteady
+    - roots reggae:
+      - dub poetry
+    - seggae
+    - ska:
+      - 2 tone
+      - jamaican ska
+      - spouge
+      - third wave ska:
+        - ska punk
+      - ragga jungle
+      - polish reggae
+      - reggae fusion
+       - skinhead reggae
+- rock:
+  - aor
+  - acoustic rock
+  - alternative:
+    - alternative ballad:
+      - ballad
+  - alternative rock:
+    - alternative dance:
+      - grebo
+    - baggy / madchester
+    - madchester
+    - britpop
+    - british invasion
+    - dream pop
+    - emo-pop
+    - grunge
+    - indie rock:
+      - dunedin sound
+      - lo-fi indie:
+          - lo-fi
+      - midwest emo
+      - post-punk revival
+      - slowcore
+    - jangle pop
+    - math rock
+    - noise pop
+    - post-grunge
+    - rap rock
+    - shoegaze
+  - art rock
+  - blues rock:
+    - boogie rock
+  - christian rock
+  - classic rock
+  - comedy rock
+  - country rock:
+    - cowpunk
+  - dark cabaret
+  - deutschrock
+  - emo:
+    - emo-pop
+    - emocore:
+      - screamo
+    - midwest emo
+  - experimental rock:
+    - avant-prog:
+      - rock in opposition
+      - zeuhl
+    - no wave
+  - folk rock:
+    - alpenrock
+    - anatolian rock
+    - andalusian rock
+    - british folk rock
+    - celtic rock
+    - medieval rock
+    - nordic folk rock
+  - funk rock
+  - garage rock:
+    - garage punk
+    - garage rock revival
+  - glam rock
+  - gothic rock:
+    - death rock
+    - ethereal wave
+  - hard rock:
+    - glam metal
+    - heavy psych
+    - rock urbano
+    - stoner rock
+  - heartland rock
+  - industrial rock
+  - jam band
+  - jazz-rock
+  - latin rock
+  - metal:
+    - alternative metal:
+      - funk metal
+      - nu metal
+      - rap metal
+    - avant-garde metal
+    - black metal:
+      - atmospheric black metal:
+        - blackgaze
+      - depressive black metal
+      - melodic black metal
+      - pagan black metal
+      - symphonic black metal
+      - war metal
+    - death metal:
+      - brutal death metal:
+        - slam death metal
+      - death 'n' roll
+      - deathgrind
+      - melodic death metal
+      - technical death metal
+    - doom metal:
+      - death doom metal
+      - funeral doom metal
+      - traditional doom metal
+    - drone metal
+    - folk metal:
+      - celtic metal
+      - medieval folk metal
+    - gothic metal
+    - grindcore:
+      - cybergrind
+      - deathgrind
+      - goregrind
+    - groove metal
+    - heavy metal:
+      - nwobhm
+    - industrial metal:
+      - cyber metal
+      - neue deutsche härte
+    - melodic metalcore:
+      - trancecore
+    - metalcore:
+      - deathcore
+      - mathcore
+      - nintendocore
+    - neoclassical metal
+    - power metal
+    - progressive metal:
+      - djent
+    - sludge metal:
+      - atmospheric sludge metal
+    - speed metal
+    - stoner metal
+    - symphonic metal
+    - thrash metal:
+      - crossover thrash
+      - technical thrash metal
+    - trance metal
+    - viking metal
+  - mod:
+    - mod revival
+  - neue deutsche welle
+  - new wave:
+    - coldwave
+    - new romantic
+    - synthpop
+  - noise rock
+  - pop rock:
+    - beat music:
+      - freakbeat
+      - group sounds
+      - merseybeat
+      - nederbeat
+    - britpop
+    - jangle pop
+    - piano rock
+    - power pop
+    - soft rock
+    - zam-rock
+  - post-punk:
+    - coldwave
+    - dance-punk
+    - death rock
+    - no wave
+  - post-rock
+  - progressive rock:
+    - andalusian rock
+    - avant-prog:
+      - rock in opposition
+      - zeuhl
+    - canterbury scene
+    - krautrock
+    - neo-prog
+    - symphonic prog
+  - proto-punk
+  - psychedelic rock:
+    - acid rock
+    - heavy psych
+    - neo-psychedelia:
+      - hypnagogic pop
+    - paisley underground
+    - raga rock
+    - space rock
+  - pub rock
+  - punk rock:
+    - anarcho-punk
+    - art punk
+    - cowpunk
+    - deutschpunk
+    - folk punk:
+      - celtic punk
+      - gypsy punk
+    - garage punk
+    - glam punk
+    - hardcore punk:
+      - beatdown hardcore
+      - crossover thrash
+      - crust punk:
+        - d-beat
+      - grindcore:
+        - cybergrind
+        - deathgrind
+        - goregrind
+      - japanese hardcore
+      - melodic hardcore
+      - metalcore:
+        - deathcore
+        - mathcore
+        - nintendocore
+      - new york hardcore
+      - noisecore
+      - powerviolence
+      - thrashcore
+      - uk82
+    - horror punk
+    - könsrock
+    - oi!
+    - pop punk
+    - post-hardcore:
+      - emocore:
+        - screamo
+    - psychobilly
+    - punk blues
+    - queercore
+    - riot grrrl
+    - ska punk
+    - skate punk
+    - surf punk
+    - synth punk
+  - rock and roll:
+    - rock & roll
+    - indorock
+    - jovem guarda
+    - rockabilly:
+      - psychobilly
+  - rock opera
+  - roots rock:
+    - swamp rock
+    - tex-mex
+  - southern rock:
+    - red dirt
+  - sufi rock
+  - surf rock:
+    - eleki
+    - rautalanka
+    - shadow music
+  - symphonic rock
+  - visual kei
+  - west coast rock
+  - zolo
+- singer/songwriter:
+  - alternative singer/songwriter
+  - bard music
+  - chanson à texte
+  - liedermacher
+  - nueva canción:
+    - nueva canción española
+    - nueva canción latinoamericana:
+      - nueva trova
+  - poezja śpiewana
+- soundtracks:
+  - cartoon music
+  - film soundtrack:
+    - film score
+    - filmi
+  - jingles
+  - library music
+  - show tunes:
+    - operetta:
+      - zarzuela
+  - spaghetti western
+  - sounds and effects
+  - television music
+  - video game music
+- spoken word:
+  - fairy tales
+  - interview
+  - poetry:
+    - beat poetry
+    - cantillation
+    - dub poetry
+    - jazz poetry
+    - sound poetry
+  - radio play
+  - speeches
+- world music:
+  - world
+  - african music:
+    - african heavy metal
+    - african hip hop
+    - african folk music:
+      - ambasse bey
+      - apala
+      - batuque
+      - dagomba music
+      - gnawa
+      - kabye folk music
+      - kilapanga
+      - mbenga-mbuti music
+      - moutya
+      - ngoma:
+        - unyago
+      - semba
+      - shona mbira music
+      - southern african folk music:
+        - khoisan folk music
+        - nguni folk music
+        - sotho-tswana folk music
+      - tchinkoumé
+      - traditional maloya
+      - traditional séga
+      - zinli
+    - afro-jazz
+    - assiko
+    - bend-skin
+    - berber music:
+      - izlan
+      - sahrawi music
+      - tuareg music:
+        - tishoumaren
+    - bikutsi
+    - bongo flava
+    - cape verdean music:
+      - batuque
+      - coladeira
+      - funaná
+      - morna
+    - chimurenga
+    - comorian music
+    - ethio-jazz
+    - genge
+    - jit
+    - kalindula
+    - kapuka
+    - kidumbak
+    - kizomba
+    - kuduro
+    - makossa
+    - malagasy music:
+      - malagasy folk music
+      - salegy
+    - marrabenta
+    - moorish music
+    - muziki wa dansi
+    - nubian music
+    - qaraami
+    - seychelles & mascarene islands music:
+      - maloya:
+        - traditional maloya
+      - moutya
+      - santé engagé
+      - séga:
+        - seggae
+        - traditional séga
+    - soukous:
+      - kwassa kwassa
+    - southern african music:
+      - bulawayo jazz
+      - cape jazz
+      - kwaito
+      - marabi:
+        - kwela
+        - mbaqanga
+      - mbube
+      - shangaan electro
+      - southern african folk music:
+        - khoisan folk music
+        - nguni folk music
+        - sotho-tswana folk music
+      - township jive
+      - tsonga disco
+    - taarab
+    - tassu
+    - tigrinya
+    - tizita
+    - tradi-modern
+    - west african music:
+      - afro-funk
+      - akan music
+      - dagomba music
+      - ewe music
+      - fon music:
+        - tchink system
+        - tchinkoumé
+        - zinli
+      - gumbe
+      - highlife:
+        - hiplife
+      - kabye folk music
+      - mande music
+      - palm wine music
+      - songhai music
+      - wassoulou
+      - wolof music:
+        - mbalax
+      - yoruba music:
+        - afrobeat
+        - apala
+        - fuji
+        - jùjú
+        - santería music
+        - waka
+    - zam-rock
+    - zouglou:
+      - coupé-décalé
+  - ancient music:
+    - ancient chinese music
+    - ancient egyptian music
+    - ancient greek music
+    - ancient roman music
+    - hyang-ak
+    - sumerian music
+  - arabic music:
+    - arabic jazz
+    - arabic pop:
+      - al jeel
+    - arabic traditional music:
+      - arabic classical music:
+        - al-maqam al-iraqi
+        - andalusian classical music
+      - arabic folk music:
+        - algerian chaabi
+        - arabic bellydance music
+    - dabke
+    - raï:
+      - pop raï
+      - traditional raï
+    - sha'abi
+    - traditional arabic pop
+  - armenian music:
+    - armenian church music
+    - armenian folk music
+    - rabiz
+  - balkan music:
+    - balkanpop
+    - balkan pop
+    - balkan folk music:
+      - albanian folk music:
+        - lab polyphony
+        - popullore
+        - tosk polyphony
+      - balkan brass band
+      - bulgarian folk music
+      - csango folk music
+      - gagauz folk music
+      - greek folk music:
+        - dimotika
+        - kritika
+        - nisiotika aigaiou
+        - nisiotika ioniou
+        - rembetika
+      - lăutărească
+      - macedonian folk music:
+        - čalgija
+      - sevdalinka
+      - starogradska muzika:
+        - čalgija
+    - balkan pop-folk:
+      - chalga
+      - manele
+      - modern laika
+      - muzică de mahala
+      - skiladika
+      - tallava
+      - turbo-folk
+    - entechna:
+      - entechna laika
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
       - neo kyma
     - laika:
       - entechna laika
@@ -1478,6 +2046,7 @@
         - zouk love
     - goombay
     - jamaican music:
+<<<<<<< HEAD
       - dancehall:
         - digital dancehall
         - ragga
@@ -1496,6 +2065,11 @@
         - seggae
         - skinhead reggae
       - rocksteady
+=======
+      - jamaican ska
+      - mento
+      - nyahbinghi
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
     - kaseko
     - punta
   - chanson:
@@ -1541,7 +2115,10 @@
       - korean folk music
     - japanese music:
       - enka
+<<<<<<< HEAD
       - honkyoku 
+=======
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
       - japanese classical music:
         - gagaku
         - heikyoku
@@ -1680,7 +2257,10 @@
       - onda nueva
       - pasillo
       - plena
+<<<<<<< HEAD
       - reggaeton
+=======
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
       - rhumba
       - salsa:
         - salsa dura
@@ -2120,6 +2700,7 @@
     - work songs:
       - field hollers
       - sea shanties
+<<<<<<< HEAD
     - yodeling:
       - country yodeling
   - turkic-mongolic traditional music:
@@ -2146,311 +2727,3 @@
     - turkish sufi music
     - özgün müzik
   - world fusion
-- rock:
-  - aor
-  - acoustic rock
-  - alternative:
-    - alternative ballad:
-      - ballad
-  - alternative rock:
-    - alternative dance:
-      - grebo
-    - baggy / madchester
-    - madchester
-    - britpop
-    - british invasion
-    - dream pop
-    - emo-pop
-    - grunge
-    - indie rock:
-      - dunedin sound
-      - lo-fi indie
-      - midwest emo
-      - post-punk revival
-      - slowcore
-    - jangle pop
-    - math rock
-    - noise pop
-    - post-grunge
-    - rap rock
-    - shoegaze
-  - art rock
-  - blues rock:
-    - boogie rock
-  - christian rock
-  - classic rock
-  - comedy rock
-  - country rock:
-    - cowpunk
-  - dark cabaret
-  - deutschrock
-  - emo:
-    - emo-pop
-    - emocore:
-      - screamo
-    - midwest emo
-  - experimental rock:
-    - avant-prog:
-      - rock in opposition
-      - zeuhl
-    - krautrock
-    - no wave
-  - folk rock:
-    - alpenrock
-    - anatolian rock
-    - andalusian rock
-    - british folk rock
-    - celtic rock
-    - medieval rock
-    - nordic folk rock
-  - funk rock
-  - garage rock:
-    - garage punk
-    - garage rock revival
-  - glam rock
-  - gothic rock:
-    - death rock
-    - ethereal wave
-  - hard rock:
-    - glam metal
-    - heavy psych
-    - rock urbano
-    - stoner rock
-  - heartland rock
-  - industrial rock
-  - jam band
-  - jazz-rock
-  - latin rock
-  - metal:
-    - alternative metal:
-      - funk metal
-      - nu metal
-      - rap metal
-    - avant-garde metal
-    - black metal:
-      - atmospheric black metal:
-        - blackgaze
-      - depressive black metal
-      - melodic black metal
-      - pagan black metal
-      - symphonic black metal
-      - war metal
-    - death metal:
-      - brutal death metal:
-        - slam death metal
-      - death 'n' roll
-      - deathgrind
-      - melodic death metal
-      - technical death metal
-    - doom metal:
-      - death doom metal
-      - funeral doom metal
-      - traditional doom metal
-    - drone metal
-    - folk metal:
-      - celtic metal
-      - medieval folk metal
-    - gothic metal
-    - grindcore:
-      - cybergrind
-      - deathgrind
-      - goregrind
-    - groove metal
-    - heavy metal:
-      - nwobhm
-    - industrial metal:
-      - cyber metal
-      - neue deutsche härte
-    - melodic metalcore:
-      - trancecore
-    - metalcore:
-      - deathcore
-      - mathcore
-      - nintendocore
-    - neoclassical metal
-    - power metal
-    - progressive metal:
-      - djent
-    - sludge metal:
-      - atmospheric sludge metal
-    - speed metal
-    - stoner metal
-    - symphonic metal
-    - thrash metal:
-      - crossover thrash
-      - technical thrash metal
-    - trance metal
-    - viking metal
-  - mod:
-    - mod revival
-  - neue deutsche welle
-  - new wave:
-    - coldwave
-    - new romantic
-  - noise rock
-  - pop rock:
-    - beat music:
-      - freakbeat
-      - group sounds
-      - merseybeat
-      - nederbeat
-    - britpop
-    - jangle pop
-    - piano rock
-    - power pop
-    - soft rock
-    - zam-rock
-  - post-punk:
-    - coldwave
-    - dance-punk
-    - death rock
-    - no wave
-  - post-rock
-  - progressive rock:
-    - andalusian rock
-    - avant-prog:
-      - rock in opposition
-      - zeuhl
-    - canterbury scene
-    - krautrock
-    - neo-prog
-    - symphonic prog
-  - proto-punk
-  - psychedelic rock:
-    - acid rock
-    - heavy psych
-    - neo-psychedelia:
-      - hypnagogic pop
-    - paisley underground
-    - raga rock
-    - space rock
-  - pub rock
-  - punk rock:
-    - anarcho-punk
-    - art punk
-    - cowpunk
-    - deutschpunk
-    - folk punk:
-      - celtic punk
-      - gypsy punk
-    - garage punk
-    - glam punk
-    - hardcore punk:
-      - beatdown hardcore
-      - crossover thrash
-      - crust punk:
-        - d-beat
-      - grindcore:
-        - cybergrind
-        - deathgrind
-        - goregrind
-      - japanese hardcore
-      - melodic hardcore
-      - metalcore:
-        - deathcore
-        - mathcore
-        - nintendocore
-      - new york hardcore
-      - noisecore
-      - powerviolence
-      - thrashcore
-      - uk82
-    - horror punk
-    - könsrock
-    - oi!
-    - pop punk
-    - post-hardcore:
-      - emocore:
-        - screamo
-    - psychobilly
-    - punk blues
-    - queercore
-    - riot grrrl
-    - ska punk
-    - skate punk
-    - surf punk
-    - synth punk
-  - rock and roll
-  - rock & roll:
-    - indorock
-    - jovem guarda
-    - rockabilly:
-      - psychobilly
-  - rock opera
-  - roots rock:
-    - swamp rock
-    - tex-mex
-  - southern rock:
-    - red dirt
-  - sufi rock
-  - surf rock:
-    - eleki
-    - rautalanka
-    - shadow music
-  - symphonic rock
-  - visual kei
-  - west coast rock
-  - zolo
-- singer/songwriter:
-  - alternative singer/songwriter
-  - bard music
-  - chanson à texte
-  - liedermacher
-  - nueva canción:
-    - nueva canción española
-    - nueva canción latinoamericana:
-      - nueva trova
-  - poezja śpiewana
-- comedy:
-  - dutch cabaret
-  - kabarett
-  - stand up
-  - musical comedy:
-    - comedy rap
-    - comedy rock
-    - musical parody
-  - novelty:
-    - scrumpy and western
-  - prank calls
-  - satire
-  - sketch comedy
-  - stand-up comedy
-- ska:
-  - 2 tone
-  - jamaican ska
-  - spouge
-  - third wave ska:
-    - ska punk
-  - dancehall
-  - dub
-  - lovers rock
-  - ragga jungle
-  - polish reggae
-  - reggae fusion
-  - rocksteady
-- spaghetti western
-
-- soundtracks:
-  - cartoon music
-  - film soundtrack:
-    - film score
-    - filmi
-  - jingles
-  - library music
-  - show tunes:
-    - operetta:
-      - zarzuela
-  - sounds and effects
-  - television music
-  - video game music
-- spoken word:
-    - fairy tales
-    - interview
-    - poetry:
-      - beat poetry
-      - cantillation
-      - dub poetry
-      - jazz poetry
-      - sound poetry
-    - radio play
-    - speeches

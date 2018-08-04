@@ -3,20 +3,60 @@
 4-beat
 4x4 garage
 8-bit
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+=======
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
+>>>>>>> f496fcebab0efce45494c5f699082b8110906545
 acapella
+acid
 acid
 acid breaks
 acid house
 acid jazz
+acid jazz
 acid rock
 acoustic music
+acoustic music
+acousticana
 acousticana
 adult contemporary music
 african popular music
+african popular music
 african rumba
 afrobeat
+afrobeat
 aleatoric music
+alternative
 alternative country
+alternative country
+alternative dance
 alternative dance
 alternative hip hop
 alternative metal
@@ -40,17 +80,24 @@ art rock
 ashiq
 asian american jazz
 australian country music
+australian country music
+australian hip hop
 australian hip hop
 australian pub rock
 austropop
 avant-garde
+avant-garde
+avant-garde jazz
 avant-garde jazz
 avant-garde metal
+avant-garde music
 avant-garde music
 axé
 bac-bal
 bachata
+bachata
 baggy
+baila
 baila
 baile funk
 baisha xiyue
@@ -59,7 +106,9 @@ baião
 bajourou
 bakersfield sound
 bakou
+bakou
 bakshy
+bal-musette
 bal-musette
 balakadri
 balinese gamelan
@@ -84,27 +133,38 @@ batuco
 batá-rumba
 beach music
 beat
+beat
+beatboxing
 beatboxing
 beautiful music
 bebop
+bebop
 beiguan
+bel canto
 bel canto
 bend-skin
 benga
 berlin school of electronic music
+berlin school of electronic music
 bhajan
+bhangra
 bhangra
 bhangra-wine
 bhangragga
+bhangragga
+bhangramuffin
 bhangramuffin
 big band
+big band
 big band music
+big beat
 big beat
 biguine
 bihu
 bikutsi
 biomusic
 bitcore
+bitpop
 bitpop
 black metal
 blackened death metal
@@ -124,6 +184,7 @@ breakbeat
 breakbeat hardcore
 breakcore
 breton music
+breton music
 brill building pop
 britfunk
 british blues
@@ -134,16 +195,21 @@ brown-eyed soul
 brukdown
 brutal death metal
 bubblegum dance
+bubblegum dance
 bubblegum pop
+bubblegum pop
+bulerias
 bulerias
 bumba-meu-boi
 bunraku
 burger-highlife
 burgundian school
 byzantine chant
+byzantine chant
 ca din tulnic
 ca pe lunca
 ca trù
+cabaret
 cabaret
 cadence
 cadence rampa
@@ -151,11 +217,14 @@ cadence-lypso
 café-aman
 cai luong
 cajun music
+cajun music
 cakewalk
 calenda
 calentanos
 calgia
 calypso
+calypso
+calypso jazz
 calypso jazz
 calypso-style baila
 campursari
@@ -163,6 +232,7 @@ canatronic
 candombe
 canon
 canrock
+cantata
 cantata
 cante chico
 cante jondo
@@ -194,21 +264,27 @@ caña
 celempungan
 cello rock
 celtic
+celtic
 celtic fusion
 celtic metal
 celtic punk
 celtic reggae
 celtic rock
 cha-cha-cha
+cha-cha-cha
 chakacha
 chalga
 chamamé
 chamber jazz
+chamber jazz
+chamber music
 chamber music
 chamber pop
 champeta
 changuí
 chanson
+chanson
+chant
 chant
 charanga
 charanga-vallenata
@@ -223,11 +299,16 @@ chicano rap
 chicha
 chicken scratch
 children's music
+children's music
+chillout
 chillout
 chillwave
 chimurenga
 chinese music
+chinese music
 chinese pop
+chinese pop
+chinese rock
 chinese rock
 chip music
 cho-kantrum
@@ -245,11 +326,13 @@ christian hip hop
 christian industrial
 christian metal
 christian music
+christian music
 christian punk
 christian r&b
 christian rock
 christian ska
 christmas carol
+christmas music
 christmas music
 chumba
 chut-kai-pang
@@ -263,6 +346,8 @@ chzalni
 chèo
 cigányzene
 classic
+classic
+classic country
 classic country
 classic female blues
 classic rock
@@ -271,6 +356,7 @@ classical music
 classical music era
 clicks n cuts
 close harmony
+club music
 club music
 cocobale
 coimbra fado
@@ -286,6 +372,7 @@ compas direct
 compas meringue
 concert overture
 concerto
+concerto
 concerto grosso
 congo
 conjunto
@@ -296,9 +383,12 @@ contemporary r&b
 contonbley
 contradanza
 cool jazz
+cool jazz
 corrido
 corsican polyphonic song
+corsican polyphonic song
 cothoza mfana
+country
 country
 country blues
 country gospel
@@ -326,6 +416,7 @@ cuban rumba
 cuddlecore
 cueca
 cumbia
+cumbia
 cumbia villera
 cybergrind
 dabka
@@ -333,10 +424,13 @@ dadra
 daina
 dalauna
 dance
+dance
+dance music
 dance music
 dance-pop
 dance-punk
 dance-rock
+dancehall
 dancehall
 dangdut
 danger music
@@ -344,10 +438,14 @@ dansband
 danza
 danzón
 dark ambient
+dark ambient
 dark cabaret
 dark pop
 darkcore
+darkcore
 darkstep
+darkstep
+darkwave
 darkwave
 de ascultat la servici
 de codru
@@ -363,14 +461,21 @@ deathgrind
 deathrock
 deep funk
 deep house
+deep house
 deep soul
 degung
 delta blues
+delta blues
 dementia
+dementia
+desert rock
 desert rock
 desi
 detroit blues
+detroit blues
 detroit techno
+detroit techno
+dhamar
 dhamar
 dhimotiká
 dhrupad
@@ -381,6 +486,7 @@ dirty dutch
 dirty rap
 dirty rap/pornocore
 dirty south
+disco
 disco
 disco house
 disco polo
@@ -400,19 +506,24 @@ dondang sayang
 donegal fiddle tradition
 dongjing
 doo wop
+doo wop
 doom metal
 doomcore
 downtempo
 drag
 dream pop
+drone
 drone doom
 drone metal
 drone music
 dronology
 drum and bass
+drum and bass
+dub
 dub
 dub house
 dubanguthu
+dubstep
 dubstep
 dubtronica
 dunedin sound
@@ -420,11 +531,14 @@ dunun
 dutch jazz
 décima
 early music
+early music
 east coast blues
 east coast hip hop
 easy listening
+easy listening
 electric blues
 electric folk
+electro
 electro
 electro backbeat
 electro hop
@@ -435,6 +549,7 @@ electro-swing
 electroclash
 electrofunk
 electronic
+electronic
 electronic art music
 electronic body music
 electronic dance
@@ -442,8 +557,10 @@ electronic luk thung
 electronic music
 electronic rock
 electronica
+electronica
 electropop
 elevator music
+emo
 emo
 emo pop
 emo rap
@@ -461,6 +578,8 @@ europop
 eurotrance
 eurourban
 exotica
+exotica
+experimental music
 experimental music
 experimental noise
 experimental pop
@@ -468,7 +587,9 @@ experimental rock
 extreme metal
 ezengileer
 fado
+fado
 falak
+fandango
 fandango
 farruca
 fife and drum blues
@@ -479,12 +600,15 @@ filmi-ghazal
 finger-style
 fjatpangarri
 flamenco
+flamenco
 flamenco rumba
+flower power
 flower power
 foaie verde
 fofa
 folk hop
 folk metal
+folk music
 folk music
 folk pop
 folk punk
@@ -496,10 +620,12 @@ freak-folk
 freakbeat
 free improvisation
 free jazz
+free jazz
 free music
 freestyle
 freestyle house
 freetekno
+french pop
 french pop
 frenchcore
 frevo
@@ -511,15 +637,19 @@ full on
 funaná
 funeral doom
 funk
+funk
 funk metal
+funk rock
 funk rock
 funkcore
 funky house
 furniture music
 fusion jazz
+fusion jazz
 g-funk
 gaana
 gabba
+gabber
 gabber
 gagaku
 gaikyoku
@@ -527,6 +657,7 @@ gaita
 galant
 gamad
 gambang kromong
+gamelan
 gamelan
 gamelan angklung
 gamelan bang
@@ -544,11 +675,13 @@ gandrung
 gangsta rap
 gar
 garage rock
+garage rock
 garrotin
 gavotte
 gelugpa chanting
 gender wayang
 gending
+german folk music
 german folk music
 gharbi
 gharnati
@@ -560,25 +693,33 @@ girl group
 glam metal
 glam punk
 glam rock
+glam rock
 glitch
 gnawa
 go-go
 goa
+goa
+goa trance
 goa trance
 gong-chime music
+goombay
 goombay
 goregrind
 goshu ondo
 gospel music
+gospel music
 gothic metal
+gothic rock
 gothic rock
 granadinas
 grebo
+gregorian chant
 gregorian chant
 grime
 grindcore
 groove metal
 group sounds
+grunge
 grunge
 grupera
 guaguanbo
@@ -592,6 +733,7 @@ gunka
 guoyue
 gwo ka
 gwo ka moderne
+gypsy jazz
 gypsy jazz
 gypsy punk
 gypsybilly
@@ -609,10 +751,12 @@ hard
 hard bop
 hard house
 hard rock
+hard rock
 hard trance
 hardcore hip hop
 hardcore metal
 hardcore punk
+hardcore techno
 hardcore techno
 hardstyle
 harepa
@@ -622,13 +766,17 @@ heart attack
 heartland rock
 heavy beat
 heavy metal
+heavy metal
 hesher
+hi-nrg
 hi-nrg
 highlands
 highlife
 highlife fusion
 hillybilly music
+hillybilly music
 hindustani classical music
+hip hop
 hip hop
 hip hop & rap
 hip hop soul
@@ -639,6 +787,7 @@ hiva usu
 hong kong and cantonese pop
 hong kong english pop
 honky tonk
+honky tonk
 honkyoku
 hora lunga
 hornpipe
@@ -646,11 +795,13 @@ horror punk
 horrorcore
 horrorcore rap
 house
+house
 house music
 hua'er
 huasteco
 huayno
 hula
+humor
 humor
 humppa
 hunguhungu
@@ -662,7 +813,9 @@ hát chèo
 hát cãi luong
 hát tuồng
 ibiza music
+ibiza music
 icaro
+idm
 idm
 igbo music
 ijexá
@@ -685,6 +838,7 @@ industrial death metal
 industrial hip-hop
 industrial metal
 industrial music
+industrial music
 industrial musical
 industrial rock
 instrumental rock
@@ -701,12 +855,16 @@ island
 isolationist
 italo dance
 italo disco
+italo disco
 italo house
+italo pop
 itsmeños
 izvorna bosanska muzika
 j'ouvert
 j-fusion
 j-pop
+j-pop
+j-rock
 j-rock
 jaipongan
 jaliscienses
@@ -716,18 +874,25 @@ jamana kura
 jamrieng samai
 jangle pop
 japanese pop
+japanese pop
 jarana
 jariang
 jarochos
 jawaiian
 jazz
+jazz
 jazz blues
-jazzcore
+jazz blues
 jazz fusion
+jazz fusion
+jazz metal
 jazz metal
 jazz rap
 jazz-funk
+jazz-funk
 jazz-rock
+jazz-rock
+jazzcore
 jegog
 jenkka
 jesus music
@@ -736,8 +901,11 @@ jig
 jig punk
 jing ping
 jingle
+jingle
 jit
 jitterbug
+jitterbug
+jive
 jive
 joged
 joged bumbung
@@ -753,11 +921,14 @@ juke joint blues
 jump blues
 jumpstyle
 jungle
+jungle
 junkanoo
 juré
 jùjú
 k-pop
+k-pop
 kaba
+kabuki
 kabuki
 kachāshī
 kadans
@@ -799,6 +970,8 @@ kiwi rock
 kizomba
 klape
 klasik
+klasik
+klezmer
 klezmer
 kliningan
 kléftiko
@@ -808,9 +981,11 @@ komagaku
 kompa
 konpa
 korean pop
+korean pop
 koumpaneia
 kpanlogo
 krakowiak
+krautrock
 krautrock
 kriti
 kroncong
@@ -834,7 +1009,9 @@ käng
 kélé
 kĩkũyũ pop
 la la
+latin
 latin american
+latin jazz
 latin jazz
 latin pop
 latin rap
@@ -848,6 +1025,8 @@ letkajenkka
 levenslied
 lhamo
 lieder
+lieder
+liedermacher
 light music
 light rock
 likanos
@@ -857,11 +1036,14 @@ liquindi
 llanera
 llanto
 lo-fi
+lo-fi indie
 lo-fi music
 loki djili
 long-song
 louisiana blues
+louisiana blues
 louisiana swamp pop
+lounge music
 lounge music
 lovers rock
 lowercase
@@ -870,15 +1052,18 @@ lucknavi thumri
 luhya omutibo
 luk grung
 lullaby
+lullaby
 lundu
 lundum
 m-base
 madchester
 madrigal
+madrigal
 mafioso rap
 maglaal
 magnificat
 mahori
+mainstream jazz
 mainstream jazz
 makossa
 makossa-soukous
@@ -890,6 +1075,7 @@ maluf
 maluka
 mambo
 manaschi
+mandarin pop
 mandarin pop
 manding swing
 mango
@@ -904,6 +1090,7 @@ mapouka-serré
 marabi
 maracatu
 marga
+mariachi
 mariachi
 marimba
 marinera
@@ -926,6 +1113,8 @@ medh
 medieval folk rock
 medieval metal
 medieval music
+medieval music
+meditation
 meditation
 mejorana
 melhoun
@@ -937,14 +1126,19 @@ melodic metalcore
 melodic music
 melodic trance
 memphis blues
+memphis blues
 memphis rap
 memphis soul
+memphis soul
 mento
+merengue
 merengue
 merengue típico moderno
 merengue-bomba
 meringue
 merseybeat
+merseybeat
+metal
 metal
 metalcore
 metallic hardcore
@@ -962,15 +1156,20 @@ min'yo
 mineras
 mini compas
 mini-jazz
+minimal
+minimal techno
 minimal techno
 minimalist music
 minimalist trance
 minneapolis sound
 minstrel show
 minuet
+minuet
 mirolóyia
 modal jazz
 modern classical
+modern classical
+modern classical music
 modern classical music
 modern laika
 modern rock
@@ -983,15 +1182,19 @@ mor lam sing
 morna
 motorpop
 motown
+motown
+mozambique
 mozambique
 mpb
 mugam
 multicultural
 murga
 musette
+musette
 museve
 mushroom jazz
 music drama
+music hall
 music hall
 musiqi-e assil
 musique concrète
@@ -1015,10 +1218,12 @@ nardcore
 narodna muzika
 nasheed
 nashville sound
+nashville sound
 nashville sound/countrypolitan
 national socialist black metal
 naturalismo
 nederpop
+neo soul
 neo soul
 neo-classical metal
 neo-medieval
@@ -1036,6 +1241,8 @@ new beat
 new instrumental
 new jack swing
 new orleans blues
+new orleans blues
+new orleans jazz
 new orleans jazz
 new pop
 new prog
@@ -1043,6 +1250,7 @@ new rave
 new romantic
 new school hip hop
 new taiwanese song
+new wave
 new wave
 new wave of british heavy metal
 new wave of new wave
@@ -1055,21 +1263,29 @@ nightcore
 nintendocore
 nisiótika
 no wave
+no wave
 noh
 noise music
+noise music
 noise pop
+noise pop
+noise rock
 noise rock
 nongak
 norae undong
 nordic folk dance music
 nordic folk music
+nordic folk music
 nortec
 norteño
+northern soul
 northern soul
 nota
 nu breaks
 nu jazz
+nu jazz
 nu metal
+nu soul
 nu soul
 nueva canción
 nyatiti
@@ -1079,17 +1295,22 @@ oi!
 old school hip hop
 old-time
 oldies
+oldies
 olonkho
 oltului
 ondo
 opera
+opera
 operatic pop
 oratorio
 orchestra
+orchestra
+orchestral
 orchestral
 organ trio
 organic ambient
 organum
+orgel
 orgel
 oriental metal
 ottava rima
@@ -1134,16 +1355,20 @@ pleng phua cheewit
 pleng thai sakorn
 political hip hop
 polka
+polka
 polo
 polonaise
 pols
 polska
 pong lang
 pop
+pop
 pop folk
+pop music
 pop music
 pop punk
 pop rap
+pop rock
 pop rock
 pop sunda
 pornocore
@@ -1152,11 +1377,17 @@ post disco
 post-britpop
 post-disco
 post-grunge
+post-grunge
 post-hardcore
+post-hardcore
+post-industrial
 post-industrial
 post-metal
 post-minimalism
+post-minimalism
 post-punk
+post-punk
+post-rock
 post-rock
 post-romanticism
 pow-wow
@@ -1172,11 +1403,13 @@ progressive bluegrass
 progressive country
 progressive death metal
 progressive electronic
+progressive electronic
 progressive electronic music
 progressive folk
 progressive folk music
 progressive house
 progressive metal
+progressive rock
 progressive rock
 progressive trance
 protopunk
@@ -1189,6 +1422,7 @@ psychobilly
 punk blues
 punk cabaret
 punk jazz
+punk rock
 punk rock
 punta
 punta rock
@@ -1203,14 +1437,18 @@ rada
 raga
 raga rock
 ragga
+ragga
 ragga jungle
 raggamuffin
+raggamuffin
+ragtime
 ragtime
 rai
 rake-and-scrape
 ramkbach
 ramvong
 ranchera
+rap
 rap
 rap metal
 rap rock
@@ -1225,6 +1463,7 @@ rebetiko
 red dirt
 reel
 reggae
+reggae
 reggae 110
 reggae bultrón
 reggae en español
@@ -1232,19 +1471,28 @@ reggae fusion
 reggae highlife
 reggaefusion
 reggaeton
+reggaeton
 rekilaulu
 relax music
 religious
 rembetiko
+renaissance
 renaissance music
 requiem
+requiem
+rhapsody
 rhapsody
 rhyming spiritual
 rhythm & blues
+rhythm & blues
+rhythm and blues
 rhythm and blues
 ricercar
 riot grrrl
+riot grrrl
 rock
+rock
+rock and roll
 rock and roll
 rock en español
 rock opera
