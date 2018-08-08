@@ -12,18 +12,11 @@ format_item: '$genre :$grouping  $artist - $album - $title $path'
 format_album: '$genre :$albumtype  $albumartist - $album $path'
 pluginpath:
    - /mopidy-bigbeet/beetsplug
-<<<<<<< HEAD
    - /usr/local/lib/python2.7/dist-packages/beetsplug
 plugins:
     web
     lyrics
     duplicates
-=======
-plugins:
-    web
-    duplicates
-    chroma
->>>>>>> f496fcebab0efce45494c5f699082b8110906545
     copyartifacts
     rewrite
     bigbeet
@@ -31,17 +24,14 @@ plugins:
     missing
     fuzzy
     info
-<<<<<<< HEAD
     edit
     the
-=======
->>>>>>> f496fcebab0efce45494c5f699082b8110906545
 
 chroma:
     auto: yes
 
 lastgenre:
-<<<<<<< HEAD
+   auto: no
    source: artist 
    count: 1
    canonical: /data/music/music_var/bigbeet/genres-tree.yaml 
@@ -49,21 +39,11 @@ lastgenre:
 
 the:
     strip: yes
-=======
-   auto: no
-   source: artist 
-   count: 1
-   canonical: /data/music/music_var/beet-config/genres-tree.yaml 
-   whitelist: /data/music/music_var/beet-config/genres.txt
->>>>>>> f496fcebab0efce45494c5f699082b8110906545
 
 per_disc_numbering: yes
 asciify_paths: yes
 replace:
-<<<<<<< HEAD
-=======
     ', ': '-'
->>>>>>> f496fcebab0efce45494c5f699082b8110906545
     '[\\/ ,]': _
     '^\.': _
     '[\x00-\x1f]': ''
