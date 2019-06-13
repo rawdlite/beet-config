@@ -67,8 +67,6 @@ paths:
     albumtype:compilation: 00_COMPILATIONS/${grouping}/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     genre:"Radio Play": 00_HOERSPIELE/%if{${grouping},${grouping},no_group}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{%if{${artist},${artist}_-_}%if{${album},${album}_-_}$title}%if{$track,-Teil_$track}
     album:Fabric: 00_COMPILATIONS/Fabric/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    genre:"Radio Play": 00_HOERSPIELE/%if{${grouping},${grouping},no_group}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{%if{${artist},${artist}_-_}%if{${album},${album}_-_}$title}%if{$track,-Teil_$track}
-    album:Fabric: 00_COMPILATIONS/Fabric/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     grouping:Total: 00_COMPILATIONS/Total/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     album:"Festive Fifty": 00_COMPILATIONS/John_Peel/Festive_Fifties/%if{$year,${year},%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     album:"Festive Fifty All": 00_COMPILATIONS/John_Peel/Festive_Fifties/%if{$year,${year}-All_Time,%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
