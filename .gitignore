@@ -1,3 +1,6 @@
 bb_library.db
 bb_library.db-shm
 bb_library.db-wal
+beets.sh
+.bash_history
+.viminfo

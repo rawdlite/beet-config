@@ -14,10 +14,11 @@ pluginpath:
 #   - /mopidy-bigbeet/beetsplug
    - /usr/local/lib/python2.7/dist-packages/beetsplug
 plugins:
+    alternatives
     web
     lyrics
     duplicates
-    copyartifacts
+    extrafiles
     fetchart
     rewrite
     lastgenre
@@ -27,9 +28,9 @@ plugins:
     edit
     the
 
-copyartifacts:
-    extensions: .*
-    print_ignored: yes
+extrafiles:
+    patterns:
+        all: '*.*'
 
 chroma:
     auto: yes
@@ -38,8 +39,8 @@ lastgenre:
    auto: no
    source: artist 
    count: 1
-   canonical: /data/music/music_var/bigbeet/genres-tree.yaml 
-   whitelist: /data/music/music_var/bigbeet/genres.txt
+   canonical: /data/music/music_var/beet-config/genres-tree.yaml 
+   whitelist: /data/music/music_var/beet-config/genres.txt
 
 the:
     strip: yes
@@ -65,6 +66,15 @@ replace:
 match:
     max_rec:
         missing_tracks: low
+
+alternatives:
+  HighRes:
+    directory: /data/music/music_data/highres
+    query: "format:flac"
+    paths:
+      default: $bitrate/$album_grouping/%asciify{$albumartist_sort}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    formats: link
+
 paths:
     default: %if{${album_grouping},-${album_grouping},${grouping}}/%asciify{$albumartist_sort}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     singleton: %if{${album_grouping},-${album_grouping},${grouping}}/00_Singletons/%asciify{${artist}_-_$title}
