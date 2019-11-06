@@ -70,21 +70,22 @@ match:
 alternatives:
   HighRes:
     directory: /data/music/music_data/highres
-    query: "format:flac"
+    query: "bitdepth:16.."
     paths:
-      default: $bitrate/$album_grouping/%asciify{$albumartist_sort}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+      default: $bitdepth/%if{%ifdef{album_grouping},-${album_grouping}}/%asciify{%if{$albumartist_sort,$albumartist_sort,$albumartist}}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+      comp: $bitdepth/00_COMPILATIONS/%if{%ifdef{album_grouping},-${album_grouping},$grouping}/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     formats: link
 
 paths:
-    default: %if{${album_grouping},-${album_grouping},${grouping}}/%asciify{$albumartist_sort}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    singleton: %if{${album_grouping},-${album_grouping},${grouping}}/00_Singletons/%asciify{${artist}_-_$title}
+    default: %if{%ifdef{album_grouping},-${album_grouping},%upper{%left{$albumartist_sort,1}}}/%asciify{$albumartist_sort}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    singleton: %if{%ifdef{album_grouping},-${album_grouping}/00_Singletons,00_Singletons/-${genre}}/%asciify{${artist}_-_$title}
     genre:"Radio Play": 00_HOERSPIELE/%if{${grouping},${grouping},no_group}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{%if{${artist},${artist}_-_}%if{${album},${album}_-_}$title}%if{$track,-Teil_$track}
-    album:Fabric: 00_COMPILATIONS/Fabric/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    grouping:Total: 00_COMPILATIONS/Total/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    album:Fabric: -Electronica/00_Compilations/Fabric/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    grouping:Total: -Electronica/00_Compilations/Total/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     album:"Festive Fifty": 00_COMPILATIONS/John_Peel/Festive_Fifties/%if{$year,${year},%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     album:"Festive Fifty All": 00_COMPILATIONS/John_Peel/Festive_Fifties/%if{$year,${year}-All_Time,%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
-    album:"Punk Sessions": 00_COMPILATIONS/John_Peel/Punk_Sessions/%asciify{$artist}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    comp: 00_COMPILATIONS/%if{${album_grouping},-${album_grouping},${grouping}}/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
+    album:"Punk Sessions": -Punk/00_Compilations/John_Peel/Punk_Sessions/%asciify{$artist}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    comp: 00_COMPILATIONS/%if{${album_grouping},${album_grouping},$grouping}/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     albumtype:soundtrack: 00_Soundtracks/%if{$original_year,${original_year}_}%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{%if{$artist,${artist}_-_}}%asciify{$title}
     albumtype:spokenword: 00_Spokenword/%if{$albumartist,$albumartist,$artist}/%if{$original_year,${original_year}_}%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{$title}
 
