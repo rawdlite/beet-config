@@ -9,14 +9,13 @@ import:
     move: yes
 clutter: [ "Thumbs.DB", ".DS_Store", "cover.jpg", "cover.png" ]
 format_item: '$genre :$grouping  $artist - $album - $title $path'
-format_album: '$id $genre :$albumtype  $albumartist - $album $path'
+format_album: '$album_grouping $id $genre :$albumtype  $albumartist - $album $path'
 pluginpath:
 #   - /mopidy-bigbeet/beetsplug
    - /data/music/music_var/beet-config/beetsplugs/
 plugins:
     alternatives
     web
-    lyrics
     duplicates
     fetchart
     rewrite
@@ -28,6 +27,8 @@ plugins:
     info
     edit
     the
+
+#    lyrics
 
 chroma:
     auto: yes
@@ -66,29 +67,29 @@ match:
 
 alternatives:
   HighRes:
-    directory: /data/music/music_data/highres
+    directory: /data/music/music_data/alternatives/highres
     query: "bitdepth:16.."
     paths:
-      default: $bitdepth/%if{%ifdef{album_grouping},-${album_grouping}}/%asciify{%if{$albumartist_sort,$albumartist_sort,$albumartist}}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-      comp: $bitdepth/00_COMPILATIONS/%if{%ifdef{album_grouping},-${album_grouping},$grouping}/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
+      default: %if{%ifdef{album_grouping},-${album_grouping},NO_GROUP}/%asciify{%if{$albumartist_sort,$albumartist_sort,$albumartist}}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+      comp: %if{%ifdef{album_grouping},-${album_grouping},NO_GROUP}/00_Compilations/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     formats: link
 
 item_fields:
     3digit_track: u'%03i' % (track)
 
 paths:
-    default: %if{%ifdef{album_grouping},-${album_grouping},%upper{%left{$albumartist_sort,1}}}/%asciify{$albumartist_sort}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
+    default: %if{%ifdef{album_grouping},-${album_grouping},%upper{%left{$albumartist_sort,1}}}/%asciify{%if{$albumartist_sort,$albumartist_sort,$albumartist}}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{$album}/%if{$disc,$disc-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     album:"ARD Radio Tatort": 00_HOERSPIELE/${album}/${3digit_track}_${grouping}-${year}_-_%if{${artist},${artist}_-_}${album}_-_$title
     genre:"Radio Play": 00_HOERSPIELE/%if{${grouping},${grouping},%if{${album},${album},Hoerspiel}}/%if{$original_year,${original_year}_,%if{$year,${year}-}}%asciify{%if{${artist},${artist}_-_}%if{${album},${album}_-_}$title}%if{$track,-Teil_$track}%if{$tracktotal,_von_$tracktotal}
-    singleton: %if{${grouping},-${grouping}/00_Singletons,00_Singletons/-${genre}}/%asciify{${artist}_-_$title}
+    singleton: %if{${grouping},-${grouping}/00_Singletons,00_Singletons/-${genre}f{$albumartist_sort,$albumartist_sort,$albumartist}/%asciify{${artist}_-_$title}
     album:Fabric: -Electronica/00_Compilations/Fabric/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     grouping:Total: -Electronica/00_Compilations/Total/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    album:"Festive Fifty": 00_COMPILATIONS/John_Peel/Festive_Fifties/%if{$year,${year},%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
-    album:"Festive Fifty All": 00_COMPILATIONS/John_Peel/Festive_Fifties/%if{$year,${year}-All_Time,%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
+    album:"Festive Fifty": 00_Compilations/John_Peel/Festive_Fifties/%if{$year,${year},%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
+    album:"Festive Fifty All": 00_Compilations/John_Peel/Festive_Fifties/%if{$year,${year}-All_Time,%asciify{$album}}/%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     album:"Punk Sessions": -Punk/00_Compilations/John_Peel/Punk_Sessions/%asciify{$artist}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
     album:"The British Invasion": -Rock//00_Compilations/The_British_Invasion/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_${album}_-_$title}
-    comp: %if{%ifdef{album_grouping},-${album_grouping},-${genre}}/00_COMPILATIONS/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
-    albumartist:"Various Artist": %if{%ifdef{album_grouping},-${album_grouping},-${genre}}/00_COMPILATIONS/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
+    comp: %if{%ifdef{album_grouping},-${album_grouping},-${genre}}/00_Compilations/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
+    albumartist:"Various Artist": %if{%ifdef{album_grouping},-${album_grouping},-${genre}}/00_Compilations/%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{${artist}_-_$title}
     albumtype:soundtrack: 00_Soundtracks/%if{$original_year,${original_year}_}%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{%if{$artist,${artist}_-_}}%asciify{$title}
     albumtype:spokenword: 00_Spokenword/%if{$albumartist,$albumartist,$artist}/%if{$original_year,${original_year}_}%asciify{$album}/%if{$disc,${disc}-}%if{$track,${track}_-_}%asciify{$title}
 
